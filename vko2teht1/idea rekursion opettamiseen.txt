@@ -7,9 +7,9 @@ Tehtävä: tulosta kansion sisällä olevat tiedostot ja alikansiot ja niiden si
 Toteutus:
 Vaihe 1: Kirjoita koodi, joka tulostaa annetun kansion tiedostot ja alikansiot.
 Vaihe 2: Muokkaa koodia niin, että alikansioiden sisällön lukemiseen se kutsuu
-		 metodia tulosta2(alikansio), jota ei ole vielä olemassa.
+	 metodia tulosta2(alikansio), jota ei ole vielä olemassa.
 Vaihe 3: Kirjoita metodi tulosta2() ja kaikki muut tarvittavat metodit siihen,
-		 että ohjelmasi kykenee tulostamaan tiedostot vaikka sisäkkäisiä alikansioita olisi 1000.
+	 että ohjelmasi kykenee tulostamaan tiedostot vaikka sisäkkäisiä alikansioita olisi 1000.
 
 		 
 
