@@ -11,5 +11,10 @@ Selvennyksiä:
 
 Vinkki: Kirjoita aluksi koodi, joka toimii vain juurikansion sisällä oleviin tiedostoihin. Lisää laskuriin arvot alikansioiden osalta kutsumalla metodia laske(alikansio). Mieti sitten, kuinka voisit toteuttaa metodin laske?
 
+Esimerkit
+
+1 count("Main.java")  1
+2 count("Main")       5
+
 HUOM: projektin "Run tests locally" nappi on jostain syystä disabled, liittyy mahdollisesti projektin "deadlineen" (mistä sen voi määritellä?)
 https://github.com/testmycode/tmc-netbeans/issues/81
