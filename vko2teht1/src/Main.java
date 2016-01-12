@@ -14,7 +14,6 @@ public class Main {
         return count;
         // END SOLUTION
         // STUB: System.out.println(root.getName());
-        // STUB: System.out.println(root.isDirectory() ? " is directory " : " is file");
         // STUB: return 0;
     }
     
@@ -24,6 +23,6 @@ public class Main {
     }
     
     public static void main(String[] args) throws IOException {
-        System.out.println(count("project"));
+        System.out.println(count("Main.java"));
     }    
 }
