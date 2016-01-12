@@ -21,9 +21,13 @@ public class MainTest {
     }
 
     @Test(timeout=1000)
-    public void pituus6() throws IOException {
+    public void riittavaTestaus() throws IOException {
         testi("rekursio", 1);
         testi("level", 5);
+        testi("project", 3);
+        testi("xml", 4);
+        testi("a", 17);
+        testi("c", 11);
     }    
     
     
