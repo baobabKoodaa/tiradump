@@ -1,9 +1,7 @@
 
 Tehtävä 1
 
-Saat syötteenä hakusanan. Ohjelmasi pitää vastata, kuinka monessa projektikansion sisällä olevan tiedoston- ja kansion nimessä kyseinen sana esiintyy? Huomaa, että kansioiden alikansiot jne. pitää myös käydä läpi. Käyttämällä rekursiota tehtävä on mahdollista ratkaista muutamalla rivillä koodia.
-
-Tehtävässä voit hyödyntää esimerkiksi seuraavia File-luokan metodeja: getName(), isFile(), isDirectory(), listFiles()
+Metodi recursion saa parametreina kansion ja hakusanan. Täydennä metodi palauttamaan, kuinka monessa tiedoston- ja kansion nimessä annettu hakusana esiintyy. Huomaa, että kansioiden alikansiot jne. pitää myös käydä läpi. Käyttämällä rekursiota tehtävä on mahdollista ratkaista muutamalla rivillä koodia. Testit kyselevät projektikansion sisällä olevan "mockfiles" kansion sisältöä. Tehtävässä voit hyödyntää esimerkiksi seuraavia File-luokan metodeja: getName(), isFile(), isDirectory(), listFiles()
 
 Selvennyksiä:
 - Olemme kiinnostuneet tiedostojen nimistä, emme tiedostojen sisällöstä
