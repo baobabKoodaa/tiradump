@@ -11,9 +11,7 @@ Vinkki: Kirjoita aluksi koodi, joka toimii vain juurikansion sisällä oleviin t
 
 Esimerkit
 
-1 count("Main.java")  1
-
-2 count("Main")       5
+1 count("txt")       11
 
 HUOM: projektin "Run tests locally" nappi on jostain syystä disabled, liittyy mahdollisesti projektin "deadlineen" (mistä sen voi määritellä?)
 https://github.com/testmycode/tmc-netbeans/issues/81
