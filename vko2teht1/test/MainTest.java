@@ -13,21 +13,15 @@ public class MainTest {
                    tulos + ", mutta metodisi palauttaa " + uusi + ".",
                    uusi == tulos);
     }
-    
-    @Test(timeout=1000)
-    public void esimerkit() throws IOException {
-        testi("Main.java", 1);
-        testi("Main", 5);
-    }
 
     @Test(timeout=1000)
     public void riittavaTestaus() throws IOException {
+        testi("hassu", 1);
         testi("rekursio", 1);
         testi("level", 5);
-        testi("project", 3);
-        testi("xml", 4);
-        testi("a", 17);
-        testi("c", 11);
+        testi("sivuhaara", 1);
+        testi("a", 6);
+        testi("t", 11);
     }    
     
     

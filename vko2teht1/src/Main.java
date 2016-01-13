@@ -18,11 +18,11 @@ public class Main {
     }
     
     public static int count(String search) throws IOException {
-        File rootFolder = new File(System.getProperty("user.dir"));
+        File rootFolder = new File(System.getProperty("user.dir") + "\\mockfiles");
         return recursion(rootFolder, search);
     }
     
     public static void main(String[] args) throws IOException {
-        System.out.println(count("Main.java"));
+        System.out.println(count("txt"));
     }    
 }
